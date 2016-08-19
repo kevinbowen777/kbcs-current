@@ -1,0 +1,13 @@
+MANIFEST
+build
+dist
+_build
+*.py[co]
+__pycache__
+*.bak
+.DS_Store
+*.swp
+*~
+*.log
+tmux_resurrect_2016*
+.spyderproject

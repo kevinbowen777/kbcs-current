@@ -32,7 +32,7 @@ else:
     title = now_playing['title']
     # playlist banner
     print ('==================================')
-    print 'Now playing on KBCS 91.3 FM Radio -'
+    print 'Now playing on KBCS 91.3 FM Radio'
     print ('---------------------------------')
     print 'Artist:', artist, '\n', 'Title: ', title
     print ('==================================')

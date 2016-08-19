@@ -20,6 +20,7 @@ Some station programs do not populate data properly and return a
 playlistId of zero with no song information
 """
 if playlistId == 0:
+    " break banner
     print ('==================================')
     print 'KBCS 91.3 FM Radio  - ', title
     print ('---------------------------------')
@@ -29,8 +30,9 @@ if playlistId == 0:
 else:
     artist = now_playing['artist']
     title = now_playing['title']
+    " playlist banner
     print ('==================================')
-    print 'Now playing on KBCS 91.3 FM Radio -', title
+    print 'Now playing on KBCS 91.3 FM Radio -'
     print ('---------------------------------')
     print 'Artist:', artist, '\n', 'Title: ', title
     print ('==================================')
